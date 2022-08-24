@@ -7,13 +7,32 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController
+{
 
-    override func viewDidLoad() {
+    //notes comments
+    //outlets and variables
+    
+    
+    
+    //actions and functions
+    override func viewDidLoad()
+    {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        self.view.backgroundColor=UIColor.green
+        
     }
 
 
+    @IBAction func yolo(_ sender: Any)
+    {
+        self.view.backgroundColor=UIColor.red
+        
+        
+        
+    }
+    
+    
 }
 
